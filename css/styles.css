@@ -1,0 +1,22 @@
+.title {
+  border:black solid 2px;
+  margin-bottom: 10px;
+  background-color: lightgreen;
+}
+h1 {
+  text-align: center;
+  font-style: oblique;
+  color:orange;
+}
+
+.content {
+  background-color: lightblue;
+}
+#weather {
+  background-color: brown;
+}
+
+.rohDole {
+  background-color: green;
+  border: brown solid 2px;
+}
