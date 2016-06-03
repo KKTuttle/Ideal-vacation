@@ -16,16 +16,18 @@ h1 {
   background-color: inherit;
 }
 #weather {
-  background-color: inherit;;
+  background-color: lightgreen;
   height:300px;
   padding:10px;
   text-align: justify;
+  border:black solid 2px;
 }
 
 .rohDole {
   background-color: inherit;
   border: brown solid 2px;
   text-align: center;
+  font-size: 15px;
 }
 
 .container {
