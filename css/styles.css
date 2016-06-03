@@ -3,6 +3,9 @@
   margin-bottom: 10px;
   background-color: lightgreen;
 }
+body {
+  background-color: lightpink;
+}
 h1 {
   text-align: center;
   font-style: oblique;
@@ -10,17 +13,46 @@ h1 {
 }
 
 .content {
-  background-color: lightblue;
+  background-color: inherit;
 }
 #weather {
-  background-color: brown;
+  background-color: inherit;;
+  height:300px;
+  padding:10px;
+  text-align: justify;
 }
 
 .rohDole {
-  background-color: green;
+  background-color: inherit;
   border: brown solid 2px;
+  text-align: center;
 }
 
 .container {
   max-width:100%;
+}
+
+.carousel-indicators {
+  bottom:0;
+}
+.carousel-indicators .active {
+  background-color: black;
+}
+.carousel-indicators li {
+  border: pink solid 2px;
+}
+.carousel-inner {
+     width: 500px;
+     margin: auto;
+     height:300px;
+ }
+.velkost {
+  width: 100%;
+}
+.nadpis{
+  color:red;
+}
+.welcome {
+
+  width:100%;
 }

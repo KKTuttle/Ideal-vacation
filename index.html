@@ -48,17 +48,47 @@
             </p>
           </div>
           <!-- <div class="row"> -->
-          <div class="col-sm-8" id="gallery">
-            <h3>Galery of Dream Vacations for everyone</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqui</p>
+          <!--Carousel -->
+          <div class="col-sm-8 carousel slide" id="myCarousel" >
+            <div class="container container-gallery">
+              <ol class="carousel-indicators">
+                <li class="active" data-target="#myCarousel" data-slide-to="0"</li>
+                <li data-target="#myCarousel" data-slide-to="1"</li>
+                <li data-target="#myCarousel" data-slide-to="2"</li>
+                <li data-target="#myCarousel" data-slide-to="3"</li>
+                <li data-target="#myCarousel" data-slide-to="4"</li>
+                <li data-target="#myCarousel" data-slide-to="5"</li>
+              </ol>
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <img class="gallery" src="img/tatry.jpg" alt="Picture of High Tatras in Slovakia" width="500px" height="250px">
+                </div>
+                <div class="item">
+                  <img class="gallery" src="img/park-slovakia.jpg" alt="Picture of High Tatras in Slovakia" width="500px" height="250px">
+                </div>
+                <div class="item">
+                  <img class="gallery" src="img/valletta2.jpg" alt="Picture of High Tatras in Slovakia" width="500px" height="250px">
+                </div>
+                <div class="item">
+                  <img class="gallery" width="500px" height="250px" src="img/venice his.jpg" alt="Picture of Waterfalls in Slovakia">
+                </div>
+                <div class="item">
+                  <img class="gallery" width="500px" height="250px" src="img/park.jpg" alt="Picture of Waterfalls in Slovakia">
+                </div>
+              </div>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev" role="button">
+              <span class="icon-prev" aria-hidden="true"></span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next" role="button">
+              <span class="icon-next" aria-hidden="true"></span>
+            </a>
           </div>
           <!-- </div> -->
         </div>
         <div class="row " >
-          <div class="col-sm-4 rohDole">
-            <p>Lorem ipsum dolor sit</p>
+          <div class="col-sm-5 rohDole">
+            <p><strong>Can't you decide where to go on vacation? Try this short survey to find out.</strong></p>
           </div>
             <!-- <div class="col-sm-8">
               <h1>kdfhfkd</h1>
@@ -68,7 +98,7 @@
 
       <div class="container">
         <div class="row">
-          <div class="col-sm-6" id="questions">
+          <div class="col-sm-5" id="questions">
             <form id="questionnaire" action="index.html" method="post">
               <label for="typeOfVacation">What are you looking for on your vacation?</label>
               <select class="form-control" name="typeOfVacation"  id="type">
@@ -82,6 +112,13 @@
                 <option>A| In the Mountains</option>
                 <option>B| On the Beaches</option>
                 <option>C| In Historical Places</option>
+              </select>
+
+              <label for="typeOfFun">What do you prefer?</label>
+              <select class="form-control" name="typeOfFun"  id="fun">
+                <option>A| Skiing</option>
+                <option>B| Swimming</option>
+                <option>C| Wine tasting</option>
               </select>
 
               <label for="typeOfLocation">What do you</label>
@@ -101,7 +138,7 @@
               <label for="typeOfSightseeing">What do see yourselft doing in future?</label>
               <select class="form-control" name="typeOfSightseeing"  id="sightseeing">
                 <option>A| Visiting Castles and National Parks</option>
-                <option>B| Visiting Temples</option>
+                <option>B| Visiting Temples and Cathedrals</option>
                 <option>C| Riding Gondola in Canals</option>
               </select>
 
@@ -114,11 +151,7 @@
               <button type="submit" name="button">Find our your Dream Vacation</button>
             </form>
           </div>
-
-            <div class="col-sm-6">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incid</p>
-            </div>
+          <div class="col-sm-7" id="dovolenka">
           </div>
       </div>
   </body>
