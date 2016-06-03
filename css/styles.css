@@ -20,3 +20,7 @@ h1 {
   background-color: green;
   border: brown solid 2px;
 }
+
+.container {
+  max-width:100%;
+}
