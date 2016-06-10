@@ -11,7 +11,6 @@ h1 {
   font-style: oblique;
   color:orange;
 }
-
 .content {
   background-color: inherit;
 }
@@ -22,18 +21,15 @@ h1 {
   text-align: justify;
   border:black solid 2px;
 }
-
 .rohDole {
   background-color: inherit;
   border: brown solid 2px;
   text-align: center;
   font-size: 15px;
 }
-
 .container {
   max-width:100%;
 }
-
 .carousel-indicators {
   bottom:0;
 }
@@ -55,6 +51,5 @@ h1 {
   color:red;
 }
 .welcome {
-
   width:100%;
 }
